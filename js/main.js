@@ -1,6 +1,14 @@
 
 
 
+document.addEventListener('DOMContentLoaded', () => {
+    const player = new Plyr('#player');
+
+    player.on('ended', () => {
+      player.restart();
+  });
+});
+
 
 /*================SCROLL REVEAL======================= */
 ScrollReveal({

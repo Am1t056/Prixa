@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Slick-->
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Jarallax CSS -->
+<!-- <link href="../dist/jarallax.css" rel="stylesheet"> -->
+<!--Swiper-->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!--Css-->
+<link rel="stylesheet" href="./css/styles.css">
+<!--Boostrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!--box icons-->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!--poppins-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <div class="container-fluid bg-[#2937a0]  py-1 ">
+    <div class="container">
+     <div class="row">
+         <div class="col-lg-6">
+             <ul class="flex items-center justify-center   lg:justify-start lg:items-center my-2 social-media">
+                 <li class="w-35 h-35"><a class="mx-2 text-[22px] w-full rounded-[50%] text-[#2937a0] bg-[#fff] px-2 py-1 hover:bg-[#252525] hover:text-[#fff] transition-all duration-500 ease-in" href=""><i class='bx bxl-facebook'></i></a></li>
+                 <li class="w-35 h-35"><a class="mx-2 text-[22px] w-full rounded-[50%] text-[#2937a0] bg-[#fff] px-2 py-1 hover:bg-[#252525] hover:text-[#fff] transition-all duration-500 ease-in" href=""><i class='bx bxl-linkedin'></i></a></li>
+                 <li class="w-35 h-35"><a class="mx-2 text-[22px] w-full rounded-[50%] text-[#2937a0] bg-[#fff] px-2 py-1 hover:bg-[#252525] hover:text-[#fff] transition-all duration-500 ease-in" href=""><i class='bx bxl-twitter'></i></a></li>
+             </ul>
+         </div>
+         <div class="col-lg-6 my-2 md:my-0 ">
+             <ul class="flex justify-center lg:justify-end lg:items-center  items-center">
+                 <li>
+                   <a class="flex items-center justify-center text-[#fff] hover:text-[#252525] flex-nowrap" href="#"> <i class='bx bx-envelope text-[16px]'></i><span class="mx-1">info@prixa.org</span></a>
+                 </li>
+                 <li class="mx-1 md:mx-4">
+                   <a class=" flex items-center justify-center text-[#fff] hover:text-[#252525] flex-nowrap"  href="#"> <i class='bx bxs-phone text-[16px]'> </i><span class="mx-1">01-555542</span></a>
+                 </li>
+                 
+             </ul>
+
+
+             
+         </div>  
+     </div>  
+    </div>   
+</div>
+
+ <div class="container-fluid bg-[#fff] header shadow-5xl">
+  <div class="container py-1">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12 col-12 flex justify-center md:justify-center lg:justify-normal">
+     
+          <a  href="./index.html"><img src="https://prixa.net/static/frontend/images/logo/prixa_image.png" alt=""></a>
+       
+      </div>
+      <div class="col-lg-8 col-md-12 col-sm-12 col-12 flex justify-center gap-32 lg:justify-end items-center ">
+        <div class="block  lg:hidden">
+          <i onclick="abc()" class='bx bx-menu text-[26px] text-[#444]'></i>
+        </div>
+        <ul class=" hidden lg:flex justify-end items-center gap-2 my-3 main-menu">
+          <li><a class="menu__link px-2 text-[#2937a0] text-[16px] font-bold" href="./index.html">Home</a></li>
+          <li><a class="menu__link px-2 text-[#2937a0] text-[16px] font-bold" href="./Services.html">Our Services</a></li>
+          <li>
+            <a class="menu__link px-2 text-[#2937a0] text-[16px] font-bold active" href="./Career.html">Career</a>
+           
+          </li>
+
+          <li class="dropdown relative has__dropdown flex justify-normal items-center">
+              <a class="menu__link px-2 text-[#2937a0] text-[16px] font-bold" href="javascript:void(0)">
+                About Us 
+              </a>
+              <i class='bx bxs-chevron-down'></i>
+              <ul class="dropdown-content absolute">
+                <li class="my-2">
+                  <a class="text-[#2937a0] text-[16px] font-bold" href="./About.html">About Us</a>
+                </li>
+                <li class="my-2">
+                  <a class="text-[#2937a0] text-[16px] font-bold" href="./Contact.html">Contact Now</a>
+                </li>
+              </ul>
+          </li>
+        </ul>
+
+          <a class="px-6 text-[#2937a0] text-[16px] font-bold py-2 rounded-xl border-1 border-[#2937a0] hover:bg-[#2937a0] hover:text-[#fff] transition-all ease-in duration-800" href="#">Login</a>
+      
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+ <div class="container-fluid bg-[#2937a0]">
+    <div class="container py-5">
+        <div class="row  ">
+            <div class="col-lg-6 flex lg:justify-normal justify-center items-center">
+                 <h2 class="text-[#fff] text-[42px] font-bold">Career</h2>
+            </div>
+            <div class="col-lg-6 flex justify-center lg:justify-end items-center">
+                <ul class="flex justify-end  items-center">
+                    <li><a class="text-[16px] text-[#fff] font-medium flex justify-center items-center" href="">Home <i class='bx bxs-chevron-right'></i></a></li>
+                    <li><a class="text-[16px] text-[#fff] font-medium" href="./Career.html">Career</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+ </div>
+
+<div class="container-fluid overflow-hidden">
+    <div class="container py-5">
+        <h2 class="text-center text-[35px] font-bold heading pb-5">Open Positions</h2> 
+
+        <div class="row">
+           <div class="col-lg-4 my-2 col-md-6 col-12">
+                    <div class="card shadow-md p-5 h-full w-full hover:shadow-lg rounded-md flex justify-center items-center gap-2 left">
+                         <h5 class="text-[22px] text-slate-800 font-medium text-center">Graphic Designer</h5>
+                         <p class="text-gray-500 text-[16px] text-center my-1">We are looking for a dynamic, active and creative graphic designer.</p>
+                         <p class="text-[16px] text-slate-900 font-medium my-2 flex justify-normal items-center">Deadline: <span class="py-1 px-2 ml-2 bg-red-600 text-[12px] font-medium text-[#fff] rounded-md">Expired</span></p>
+                         <a class="p-2 rounded-md bg-[#2937a0] text-[#fff] mt-2 font-medium  " href="">View Details</a>
+
+                    </div>
+           </div>
+           <div class="col-lg-4 my-2 col-md-6 col-12">
+            <div class="card shadow-md p-5 h-full w-full hover:shadow-lg  rounded-md flex justify-center items-center gap-2 mid">
+                <h5 class="text-[22px] text-slate-800 font-medium text-center">Marketing Office</h5>
+                <p class="text-gray-500 text-[16px] text-center my-1">The position has provision for attractive sales commission, health insurance and accidental insurance.</p>
+                <p class="text-[16px] text-slate-900 font-medium my-2 flex justify-normal items-center">Deadline: <span class="py-1 px-2 ml-2 bg-red-600 text-[12px] font-medium text-[#fff] rounded-md">Expired</span></p>
+                <a class="p-2 rounded-md bg-[#2937a0] text-[#fff] mt-2 font-medium  " href="">View Details</a>
+
+           </div>
+           </div>
+           <div class="col-lg-4 my-2 col-md-6 col-12">
+            <div class="card shadow-md p-5 h-full w-full hover:shadow-lg  rounded-md flex justify-center items-center gap-2 right-hand">
+                <h5 class="text-[22px] text-slate-800 font-medium text-center">Django Developer</h5>
+                <p class="text-gray-500 text-[16px] text-center my-1">We are looking for a number of Python Web Developers responsible for managing the interchange of data between the server and th...</p>
+                <p class="text-[16px] text-slate-900 font-medium my-2 flex justify-normal items-center">Deadline: <span class="py-1 px-2 ml-2 bg-red-600 text-[12px] font-medium text-[#fff] rounded-md">Expired</span></p>
+                <a class="p-2 rounded-md bg-[#2937a0] text-[#fff] mt-2 font-medium  " href="">View Details</a>
+
+           </div>
+
+           </div>
+           <div class="col-lg-4 my-2 col-md-6 col-12">
+                <div class="card shadow-md p-5 h-full w-full hover:shadow-lg  rounded-md flex justify-center items-center gap-2 left">
+                    <h5 class="text-[22px] text-slate-800 font-medium text-center">Business Development Executive</h5>
+                    <p class="text-gray-500 text-[16px] text-center my-1">We are looking for a dynamic, active and creative graphic designer.</p>
+                    <p class="text-[16px] text-slate-900 font-medium my-2 flex justify-normal items-center">Deadline: <span class="py-1 px-2 ml-2 bg-red-600 text-[12px] font-medium text-[#fff] rounded-md">Expired</span></p>
+                    <a class="p-2 rounded-md bg-[#2937a0] text-[#fff] mt-2 font-medium  " href="">View Details</a>
+
+                </div>
+            </div>
+                <div class="col-lg-4 my-2 col-md-6 col-12">
+                    <div class="card shadow-md p-5 h-full w-full hover:shadow-lg  rounded-md flex justify-center items-center gap-2 down">
+                        <h5 class="text-[22px] text-slate-800 font-medium text-center">Marketing and Operations In-charge (E commerce)</h5>
+                        <p class="text-gray-500 text-[16px] text-center my-1">Marketing and operations in-charge of E commerce site</p>
+                        <p class="text-[16px] text-slate-900 font-medium my-2 flex justify-normal items-center">Deadline: <span class="py-1 px-2 ml-2 bg-red-600 text-[12px] font-medium text-[#fff] rounded-md">Expired</span></p>
+                        <a class="p-2 rounded-md bg-[#2937a0] text-[#fff] mt-2 font-medium  " href="">View Details</a>
+
+                    </div>
+                </div>
+            <div class="col-lg-4 my-2 col-md-6 col-12">
+                <div class="card shadow-md p-5 h-full w-full hover:shadow-lg  rounded-md flex justify-center items-center gap-2 right-hand">
+                    <h5 class="text-[22px] text-slate-800 font-medium text-center">Python/ Django Developer</h5>
+                    <p class="text-gray-500 text-[16px] text-center my-1">Skills and Knowledge
+                        Technology:&nbsp;Python/Django, PostgreSQL, HTML5, CSS3
+                        6 months of experience in the related field
+                        C...</p>
+                    <p class="text-[16px] text-slate-900 font-medium my-2 flex justify-normal items-center">Deadline: <span class="py-1 px-2 ml-2 bg-red-600 text-[12px] font-medium text-[#fff] rounded-md">Expired</span></p>
+                    <a class="p-2 rounded-md bg-[#2937a0] text-[#fff] mt-2 font-medium  " href="">View Details</a>
+
+                </div>
+            </div>
+          
+
+        </div>
+
+
+
+        <div class="row my-5">
+            <div class="col-lg-12">
+                <div class="flex justify-center items-center flex-col gap-3">
+                    <h1 class="text-[35px] font-bold text-center">Didn't find your preferred position?</h1>
+                    <p class="text-gray-400 text-[16px] font-medium text-center">We are always searching for skillful and ambitious talents. If you are one, please
+                        submit your resume.</p>
+                        <a class="px-5 py-3 bg-[#2937a0] text-[#fff] font-medium rounded-lg down" href="">Drop Your CV</a>
+                </div>
+                
+              
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid bg-[#2937a0] shadow-md shadow-indigo-400 ">
+  <div class="container py-4">
+    <div class="row">
+      <div class="col-lg-8">
+        <h4 class="w-full text-[32px] font-medium text-[#fff]  my-3">Don't hesitate to <span class="text-[#f4a300]">contact us</span> for any kind of Services </h4>
+      </div>
+      <div class="col-lg-4 flex items-center justify-center lg:justify-end">
+          <div class=" my-4 hover:scale-105  transition-all ease-in duration-500">
+           <a class="rounded-lg py-3 px-20 lg:px-28 w-full duration-300  border-2 border-[#fff] bg-[#fff] hover:bg-[#2937a0] hover:text-[#fff] font-bold text-center whitespace-nowrap text-[#2937a0] text-[14px] md:text-[16px]  hover:rounded-lg" href="">Contact us</a>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="container-fluid bg-[#2937a0]">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-12 flex flex-wrap flex-col justify-center items-center lg:justify-normal lg:items-start ">
+
+        <div>
+          <a  href=""><img  src="https://prixa.net/static/frontend/images/logo/logo-footer.png" alt=""></a>
+
+        </div>
+            
+             <div class="flex flex-col   gap-2 my-3  footer-2">
+                  <div class="flex justify-normal  gap-2 mb-3">
+                    <i class='bx bxs-map text-[#fff] text-[24px]'></i>
+                    <div>
+                        <h5 class="text-[18px] text-[#fff] font-medium uppercase">Address</h5>
+                        <p class="text-gray-300 text-[16px]">Prixa Headquarters, Jawalakhel</p>
+                    </div>
+                  </div>
+
+                  <div class="flex justify-normal  gap-2 mb-3">
+                    <i class='bx bxs-envelope text-[#fff] text-[24px]'></i>
+                    <div>
+                        <h5 class="text-[18px] text-[#fff] font-medium uppercase">Email</h5>
+                        <p class="text-gray-300 text-[16px]">info@prixa.org</p>
+                    </div>
+                  </div>
+
+                  <div class="flex justify-normal  gap-2 mb-3">
+                    <i class='bx bxs-phone text-[#fff] text-[24px]'></i>
+                    <div>
+                        <h5 class="text-[18px] text-[#fff] font-medium uppercase">Phone</h5>
+                        <p class="text-gray-300 text-[16px]">9801970966,&nbsp;01-15555062</p>
+                    </div>
+                  </div>
+
+
+             </div>
+
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-12 gap-5 flex justify-center lg:justify-between">
+           
+       <div class="footer-1 ">
+        <h6 class="text-[#fff] text-[24px] font-normal">INFORMATION</h6>
+        <ul class="flex flex-col my-4">
+          <li class="mb-3"><a class="text-[16px] font-medium text-gray-300 hover:text-[#fff] transition-all ease-in duration-75" href="">About Us</a></li>
+          <li class="mb-3"><a class="text-[16px] font-medium text-gray-300 hover:text-[#fff] transition-all ease-in duration-75" href="">Services</a></li>
+          <li class="mb-3"><a class="text-[16px] font-medium text-gray-300 hover:text-[#fff] transition-all ease-in duration-75" href="">FAQ</a></li>
+          <li class="mb-3"><a class="text-[16px] font-medium text-gray-300 hover:text-[#fff] transition-all ease-in duration-75" href="">Contact Us</a></li>
+          
+
+        </ul>
+       </div>
+
+
+       <div class="footer-2">
+        <h6 class="text-[#fff] text-[24px] font-normal">LATEST NEWS</h6>
+        <ul class="flex flex-col my-4">
+          <li class="mb-3">
+            <a class="text-[16px] font-medium text-gray-300 hover:text-[#fff] transition-all ease-in duration-75" href="">Prixa Adalytics v2.1.0 Launched</a>
+            <p class="text-gray-200">Oct. 24, 2019</p>
+          </li>
+          <li class="mb-3">
+            <a class="text-[16px] font-medium text-gray-300 hover:text-[#fff] transition-all ease-in duration-75" href="">संचार माध्यमहरुमा आएको समाचार सम्बन्धि प्रेस विज्ञप्ती</a>
+            <p class="text-gray-200">Oct. 21, 2019</p>
+          </li>
+          <li class="mb-3">
+            <a class="text-[16px] font-medium text-gray-300 hover:text-[#fff] transition-all ease-in duration-75" href="">Prixa Adalytics v2.1.0 Launched</a>
+            <p class="text-gray-200">July 24, 2019</p>
+          </li>
+        
+
+        </ul>
+       </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <hr class="text-white mt-2">
+  <div class="container">
+    <div class="row flex justify-center items-center">
+             <div class="col-lg-6">
+              <p class="text-[#fff] text-center mb-0 py-3 copyright">
+                <script>document.write(new Date().getFullYear())</script> &#xa9 Amit - Prixa Tech.
+              </p>
+           
+             </div>
+    </div>
+  </div>
+</div>
+
+   
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="fixed container-fluid top-0 left-0   h-full bg-[#f0f0f0] sidebar  border-1 border-gray-600 z-[999]  transition ease-in duration-300" style="display: none;" >
+  <div class="flex flex-col justify-center items-center my-4">
+    <img src="https://prixa.net/static/frontend/images/logo/prixa_image.png" alt="">
+
+    <ul class="mt-4 w-full h-full px-20 flex justify-center items-center flex-col">
+              <li class="my-3 border-b-2 border-gray-600 text-center w-full"><a class="px-2 text-[#2937a0] text-[16px] font-bold whitespace-nowrap lg:hidden uppercase" href="./index.html">Home</a></li>
+              <li class="my-3 border-b-2 border-gray-600 text-center w-full"><a class="px-2 text-[#2937a0] text-[16px] font-bold whitespace-nowrap lg:hidden uppercase" href="./Services.html">Our Services</a></li>
+              <li class="my-3 border-b-2 border-gray-600 text-center w-full  ">
+                <a class="px-2 text-[#2937a0] text-[16px] font-bold whitespace-nowrap lg:hidden uppercase" href="./Career.html">Career</a>
+
+
+              </li>
+
+
+              <li class="my-3  text-center dropdown  has__dropdown transition ease-in duration-500 relative w-full">
+                <a class="px-2 text-[#2937a0] text-[16px] menu__link font-bold whitespace-nowrap lg:hidden uppercase" href="javascript:void(0)">
+                  About Us <i class='bx bx-chevron-down'></i>
+                </a>
+
+                <ul class="dropdown-content absolute">
+                  <li>
+                    <a class="text-[#2937a0] text-[16px] font-bold uppercase" href="./About.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="text-[#2937a0] text-[16px] font-bold uppercase" href="">Contact Now</a>
+                  </li>
+                </ul>
+              </li>
+
+    </ul>
+
+  </div>
+ 
+
+  <i class='bx bx-x absolute top-5 right-5 text-[28px] text-[#444] z-[999]' onclick="sidebarClose()"></i>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+ <!--Jquery cdn-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+
+<!--Jarallax cdn-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jarallax/2.2.0/jarallax.min.js" integrity="sha512-SzjBVJel+vn7dcuXHmWy9UN7hK2QFO3LY1OQ57tdMakmFQ2yZpt60WUhH/lu7X65SphrUNcb19Sahe0HdjmRbg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+  $(document).ready(function(){
+      jarallax(document.querySelectorAll('.jarallax'));
+  });
+</script>
+
+
+
+<!--Gsap scroll trigger-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/ScrollTrigger.min.js"></script>
+<!--GSAP-->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<!--scroll reveal-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script>
+    var header=$('.header')
+    $(window).scroll(function(){
+      if($(this).scrollTop() > 0){
+        header.addClass('sticky')
+      }else
+      {
+        header.removeClass('sticky') 
+      }
+    })
+  </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+   
+</body>
+</html>

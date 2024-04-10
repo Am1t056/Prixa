@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    
+    <!--Swiper-->
+      
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!--Css-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <div class="container-fluid bg-[#2937a0]  py-1 ">
+           <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="flex items-center justify-center   lg:justify-start lg:items-center my-2 social-media">
+                        <li class="w-35 h-35"><a class="mx-2 text-[22px] w-full rounded-[50%] text-[#2937a0] bg-[#fff] px-2 py-1 hover:bg-[#252525] hover:text-[#fff] transition-all duration-500 ease-in" href=""><i class='bx bxl-facebook'></i></a></li>
+                        <li class="w-35 h-35"><a class="mx-2 text-[22px] w-full rounded-[50%] text-[#2937a0] bg-[#fff] px-2 py-1 hover:bg-[#252525] hover:text-[#fff] transition-all duration-500 ease-in" href=""><i class='bx bxl-linkedin'></i></a></li>
+                        <li class="w-35 h-35"><a class="mx-2 text-[22px] w-full rounded-[50%] text-[#2937a0] bg-[#fff] px-2 py-1 hover:bg-[#252525] hover:text-[#fff] transition-all duration-500 ease-in" href=""><i class='bx bxl-twitter'></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 my-2 md:my-0 ">
+                    <ul class="flex justify-center lg:justify-end lg:items-center  items-center">
+                        <li>
+                          <a class="flex items-center justify-center text-[#fff] hover:text-[#252525] flex-nowrap" href="#"> <i class='bx bx-envelope text-[16px]'></i><span class="mx-1">info@prixa.org</span></a>
+                        </li>
+                        <li class="mx-1 md:mx-4">
+                          <a class=" flex items-center justify-center text-[#fff] hover:text-[#252525] flex-nowrap"  href="#"> <i class='bx bxs-phone text-[16px]'> </i><span class="mx-1">01-555542</span></a>
+                        </li>
+                        
+                    </ul>
+
+
+                    
+                </div>  
+            </div>  
+           </div>   
+    </div>
+
+
+    <div class="container-fluid bg-[#fff] header shadow-5xl">
+      <div class="container py-1">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-12 flex justify-center md:justify-center lg:justify-normal">
+         
+              <a  href="./index.html"><img src="https://prixa.net/static/frontend/images/logo/prixa_image.png" alt=""></a>
+           
+          </div>
+          <div class="col-lg-8 col-md-12 col-sm-12 col-12 flex justify-center gap-32 lg:justify-end items-center ">
+            <div class="block  lg:hidden">
+              <i onclick="abc()" class='bx bx-menu text-[26px] text-[#444]'></i>
+            </div>
+            <ul class=" hidden lg:flex justify-end items-center gap-2 my-3 main-menu">
+              <li><a class="menu__link px-2 text-[#2937a0] text-[16px] font-bold active" href="./index.html">Home</a></li>
+              <li><a class="menu__link px-2 text-[#2937a0] text-[16px] font-bold" href="./Services.html">Our Services</a></li>
+              <li>
+                <a class="menu__link px-2 text-[#2937a0] text-[16px] font-bold" href="./Career.html">Career</a>
+               
+              </li>
+
+              <li class="dropdown relative has__dropdown flex justify-normal items-center whitespace-nowrap">
+                  <a class="menu__link px-2 text-[#2937a0] text-[16px] font-bold " href="javascript:void(0)">
+                    About Us
+                  </a>
+                  <i class='bx bxs-chevron-down'></i>
+                  <ul class="dropdown-content absolute">
+                    <li class="my-2">
+                      <a class="text-[#2937a0] text-[16px] font-bold" href="./About.html">About Us</a>
+                    </li>
+                    <li class="my-2">
+                      <a class="text-[#2937a0] text-[16px] font-bold" href="./Contact.html">Contact Now</a>
+                    </li>
+                  </ul>
+              </li>
+            </ul>
+
+              <a class="px-6 text-[#2937a0] text-[16px] font-bold py-2 rounded-xl border-1 border-[#2937a0] hover:bg-[#2937a0] hover:text-[#fff] transition-all ease-in duration-800" href="#">Login</a>
+          
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="container-fluid jarallax  h-screen relative flex items-center justify-center overflow-hidden"  data-speed="-0.3">
+
+      <img class=" jarallax-img absolute w-[100%] h-full object-cover object-center" src="https://img.freepik.com/free-photo/person-playing-3d-video-games-device_23-2151005751.jpg?t=st=1710834545~exp=1710838145~hmac=f000efe42757b6798fb40c344b741121d614e2706e802a0de7262ffd0e6ee9a1&w=996" alt="">
+      
+     <div class="  flex justify-center items-center w-full h-full">
+           
+        <div class="flex flex-col absolute  hero-content px-8">
+          <h1 class=" text-[#fff] text-3xl lg:text-5xl font-bold">Build Your Dream Project!</h1>
+          <span class="text-[#f4a300] text-xl lg:text-4xl py-2 font-bold">Fast And Affordable</span>
+           <p class="text-[20px]  lg:text-xl text-[#fff] font-medium py-2">With an experienced team, get your project up <br> and running on top of cutting-edge solutions.</p>
+
+           <div class="flex gap-3 mt-5 flex-wrap">
+            <a class="py-3 px-4 flex-1 text-center bg-[#fff] text-[#2937a0] whitespace-nowrap border-2 border-blue-700 hover:border-[#fff] hover:scale-105 shadow-xl hover:bg-[#2937a0] hover:text-[#fff] transition ease-in duration-500 shadow-[#2937a0] text-[16px] rounded-md font-medium" href="">See All Services</a>
+            <a class="py-3 px-4 flex-1 text-center bg-[#fff] text-[#2937a0] whitespace-nowrap border-2 border-blue-700 hover:border-[#fff] hover:scale-105 shadow-xl hover:bg-[#2937a0] hover:text-[#fff] transition ease-in duration-500 shadow-[#2937a0] text-[16px] rounded-md font-medium" href="">More About Us</a>
+           </div>
+        </div>
+           
+      
+       </div> 
+      
+    </div>
+    
+
+
+<!-- 
+    <div class="container-fluid bg-[#fff] my-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 flex flex-col justify-normal items-center lg:items-start lg:justify-center py-5 order-last lg:order-first px-2">
+                <h1 class="text-[26px] lg:text-[35px] font-bold py-3 w-full">Build Your Dream Project Now! <br>
+                  <span class="text-[#2937a0] whitespace-nowrap">Fast and Affordable.</span>
+                </h1> 
+                <p class="w-full">With an experienced team, get your project up and running on top of cutting-edge solutions.</p>
+                <div class="flex mt-4 w-full">
+                  <a class="py-3 px-2  bg-[#2937a0] flex-1  hover:bg-gradient-to-r from-blue-800 via-blue-500 to-blue-900 hover:scale-105 hover:text-[#fff] transition-all ease-in duration-500 text-center w-full whitespace-nowrap text-[#fff] mr-4 text-[14px] md:text-[16px] rounded-lg hover:rounded-lg" href="#">See All Services</a>
+                  <a class="py-3 px-2  bg-[#2937a0] flex-1  hover:bg-gradient-to-r from-blue-800 via-blue-500 to-blue-900 hover:scale-105 hover:text-[#fff] transition-all ease-in duration-500 text-center w-full whitespace-nowrap text-[#fff] text-[14px] md:text-[16px] rounded-lg hover:rounded-lg " href="#">More About Us</a>
+
+                </div>
+              
+               
+          </div>
+               
+         
+          <div class="col-lg-6 order-first px-0 lg:order-last">
+              <div class="w-full">
+               <img class="w-full h-auto object-cover img1" src="https://th.bing.com/th/id/OIP.lQLwoPq6L7xfeczd3ijUkgHaHa?w=800&h=800&rs=1&pid=ImgDetMain" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="container-fluid bg-[#2937a0] shadow-md shadow-indigo-400">
+        <div class="container py-4">
+          <div class="row">
+            <div class="col-lg-8">
+              <h4 class="w-full text-[32px] font-medium text-[#fff]  my-3">Don't hesitate to <span class="text-[#f4a300]">contact us</span> for any kind of Services </h4>
+            </div>
+            <div class="col-lg-4 flex items-center justify-center lg:justify-end">
+                <div class=" my-4 hover:scale-105  transition-all ease-in duration-500">
+                 <a class="rounded-lg py-3 px-20 lg:px-28 w-full   border-2 border-[#fff] bg-[#fff] hover:bg-[#2937a0] hover:text-[#fff] font-bold text-center whitespace-nowrap text-[#2937a0] text-[14px] md:text-[16px]  hover:rounded-lg" href="">Contact us</a>
+                </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container-fluid bg-[#fff] overflow-hidden ">
+           <div class="container">
+            <h2 class="text-center my-5 text-[35px] font-bold heading">Number <span class="text-[#f4a300]">#1 Webservice</span> provider <br>Over 5 years!!</h2> 
+            <div class="container py-5">
+                <div class="grid lg:grid-cols-3 gap-5 px-0 number-1">
+                      <div class="w-full shadow-inner bg-gray-100 flex flex-col justify-center items-center py-4 md:my-0 my-4 rounded-lg hover:scale-125 duration-200 left">
+
+                           <div class="w-36 h-36  mt-[-5rem]  rounded-full relative flex justify-center items-center">
+                                  <img class="w-full h-full absolute rounded-full hover:scale-75 transition ease-in duration-500" src="https://th.bing.com/th/id/R.c013c9ec0ad999fc3f3d294fd1143d33?rik=AfNdIi%2fCylfZ8g&pid=ImgRaw&r=0" alt=""> 
+                            </div> 
+                            <h5 class="text-[25px] font-medium mt-3 py-2 whitespace-nowrap">Search Optimization</h5>
+                            <p class="text-center text-gray-600 font-normal py-2  mb-2"> Our aim is to help your business increase their web profile ensuring their ranking in top spot of major search engines like Google, Yahoo, Bing etc.</p>
+                      </div>
+                      <div class="w-full shadow-inner bg-gray-300 flex flex-col justify-center items-center py-4 md:my-0 my-4 rounded-lg  hover:scale-125 duration-200 mid">
+                        <div class="w-36 h-36  mt-[-5rem]  rounded-full relative flex justify-center items-center">
+                          <img class="w-full h-full  absolute rounded-full hover:scale-75 transition ease-in duration-500" src="https://th.bing.com/th/id/OIP.FvZoTegPN4pBjR7j1pg5YwHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt=""> 
+                    </div> 
+                        <h5 class="text-[25px] font-medium mt-3 py-2 whitespace-nowrap">High-End Analyzing</h5>
+                        <p class="text-center text-gray-600 font-normal py-2  mb-2"> We combine globally appreciated software with industry expertise, exceptional implementation, customization and training to contribute to your continued success.</p>
+                     </div>
+                     <div class="w-full shadow-inner bg-gray-100 flex flex-col justify-center items-center py-4 md:my-0 my-4 rounded-lg  hover:scale-125 duration-200 right-hand">
+                      <div class="w-36 h-36  mt-[-5rem]  rounded-full relative flex justify-center items-center">
+                        <img class="w-full h-full  absolute rounded-full hover:scale-75 transition ease-in duration-500" src="https://th.bing.com/th/id/OIP.0xi9rztHH23HWjHigTlReAHaHa?rs=1&pid=ImgDetMain" alt=""> 
+                  </div> 
+                    <h5 class="text-[25px] font-medium mt-3 py-2 whitespace-nowrap">Great Security</h5>
+                    <p class="text-center text-gray-600 font-normal py-2  mb-2">We pay special attention to security of our product so that our client data are secured from all the possible cyber threat without lagging user experience whatsoever.</p>
+                    </div>
+                </div>
+          </div>
+
+
+           </div>
+      </div>
+
+      <div class="container-fluid bg-[#f0f0f0] overflow-hidden ">
+
+        <div class="container py-5">
+        <h2 class="text-center my-3 text-[35px] font-bold heading pb-5">SnowBerry:Our Awesome New CMS!</h2> 
+
+          
+          <div class="row">
+            <div class="col-lg-7  col-12">
+               <div class="rounded-md py-2 px-2 h-full video-container">
+                   <iframe class="w-[100%] h-[315px] lg:h-[100%] video rounded-md" src="https://www.youtube.com/embed/CTW3xDBsMwQ?si=wITP3mvL-147ruqO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                   
+                    
+               </div>
+            </div>
+            <div class="col-lg-5  col-12 ">
+              <p class="py-2 ">Introducing SnowBerry, a fully 'Cloud First' CMS developed to help bring your plans to the web. Whether it be your nerve-wrenchingly traffic surging blog or a video-delivery platform, SnowBerry can handle them all. Furthermore,
+                SnowBerry can easily sit on top of a plethora of nodes to give your users the best Service they deserve - High Availability, Low Latency and Reliability. </p>
+                <ul class="px-0 my-3 grid sm:grid-cols-2 video-list">
+                  <li class="flex justify-normal items-center my-2 lg:my-4"><img class="w-10 h-10" src="./images/data-server.png" alt=""><p>State of the Art Analytics to get the Best out of your content</p></li>
+                  <li class="flex justify-normal items-center my-2 lg:my-4"><img class="w-10 h-10" src="./images/eye.png" alt=""><p>User Friendly and Unimaginably Easy</p></li>
+                  <li class="flex justify-normal items-center my-2 lg:my-4"><img class="w-10 h-10" src="./images/dollar-symbol.png" alt=""><p>Pay only for what you need ! </p></li>
+                  <li class="flex justify-normal items-center my-2 lg:my-4"><img class="w-10 h-10" src="./images/link.png" alt=""><p>Customized to Fit You</p></li>
+
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid my-5 overflow-hidden">
+       
+        <div class="container">
+          <h2 class="text-center text-[35px] font-bold heading">Our Services </h2>
+          <p class="text-[16px] text-gray-500 text-center">We have best servcies for our customers.</p>
+
+      
+
+        <div class="row my-2 ">
+          <div class="col-lg-4 my-3 services-box">
+
+            <div class=" py-3 h-full left   px-2 flex flex-col lg:flex-row items-center lg:items-start justify-normal rounded-md shadow-md hover:shadow-xl gap-3">
+                <img class=" w-48 h-48  lg:w-20 lg:h-20 top-0 object-cover object-right" src="images/content.jpg" alt="">
+
+                 <div class="flex justify-center items-center lg:justify-normal lg:items-start flex-col gap-1">
+                  <h5 class="text-[24px] lg:text-[24px] font-medium">System Development</h5>
+                  <p class="">We are not "Just Another Website Making Company". We design Systems. We develop software (and Hardware if Required) that seamle...</p>
+                 </div>
+             </div>
+          </div>
+          <div class="col-lg-4 my-3 services-box">
+
+            <div class="  py-3 h-full mid   px-2 flex flex-col lg:flex-row items-center lg:items-start justify-normal rounded-md shadow-md hover:shadow-xl gap-3">
+                <img class=" w-48 h-48  lg:w-20 lg:h-20 top-0 object-cover object-center" src="images/content.jpg" alt="">
+                 <div class="flex justify-center items-center lg:justify-normal lg:items-start flex-col gap-1">
+                  <h5 class="text-[24px] lg:text-[24px] font-medium ">Content Management System (CMS)</h5>
+                  <p class="">Such a content management system (CMS) typically has two major components: A content management application (CMA) is the front-...</p>
+                 </div>
+             </div>
+          </div>
+          <div class="col-lg-4 my-3 services-box">
+
+            <div class="  py-3 h-full right-hand   px-2 flex flex-col lg:flex-row items-center lg:items-start justify-normal rounded-md shadow-md hover:shadow-xl gap-3">
+                <img class=" w-48 h-48  lg:w-20 lg:h-20 top-0 object-cover object-center" src="images/content.jpg" alt="">
+                 <div class="flex justify-center items-center lg:justify-normal lg:items-start flex-col gap-1">
+                  <h5 class="text-[24px] lg:text-[24px] font-medium ">Big data analysis</h5>
+                  <p class="">A Few MBs of Data, A Few GBs of Data or hundreds of Tera Bytes of Data, We can HANDLE them all ! Just sit back and concentrate ...</p>
+                 </div>
+             </div>
+          </div>
+             
+          <div class="col-lg-4 my-3 services-box">
+
+            <div class="  py-3 h-full left   px-2 flex flex-col lg:flex-row items-center lg:items-start justify-normal rounded-md shadow-md hover:shadow-xl gap-3">
+                <img class=" w-48 h-48  lg:w-20 lg:h-20 top-0 object-cover object-center" src="images/content.jpg" alt="">
+                 <div class="flex justify-center items-center lg:justify-normal lg:items-start flex-col gap-1">
+                  <h5 class="text-[24px] lg:text-[24px] font-medium ">Managed Cloud Services</h5>
+                  <p class="">Still relying on Old Infrastructures? Let us move your business to the Cloud. With our certified team, we can deliver cutting e...</p>
+                 </div>
+             </div>
+          </div>
+          <div class="col-lg-4 my-3 services-box">
+
+            <div class="  py-3 h-full  down  px-2 flex flex-col lg:flex-row items-center lg:items-start justify-normal rounded-md shadow-md hover:shadow-xl gap-3">
+                <img class=" w-48 h-48  lg:w-20 lg:h-20 top-0 object-cover object-center" src="images/content.jpg" alt="">
+                 <div class="flex justify-center items-center lg:justify-normal lg:items-start flex-col gap-1">
+                  <h5 class="text-[24px] lg:text-[24px] font-medium ">Consultation service</h5>
+                  <p class="">With our team of experienced Engineers, we can come up with a cost effective and well optimized 'Engineered Solution' for all o...</p>
+                 </div>
+             </div>
+          </div>
+          <div class="col-lg-4 my-3 services-box">
+
+            <div class="  py-3 h-full  right-hand  px-2 flex flex-col lg:flex-row items-center lg:items-start justify-normal rounded-md shadow-md hover:shadow-xl gap-3">
+                <img class=" w-48 h-48  lg:w-20 lg:h-20 top-0 object-cover object-center" src="images/content.jpg" alt="">
+                 <div class="flex justify-center items-center lg:justify-normal lg:items-start flex-col gap-1">
+                  <h5 class="text-[24px] lg:text-[24px] font-medium ">Social Media Marketing</h5>
+                  <p class="">With best strategies to earn better leads and conversion rates, we are the one stop solution to enhance social media presence, ...</p>
+                 </div>
+             </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+      </div>
+ 
+      <div class="container-fluid bg-[#2937a0] ">
+        <div class="container py-3">
+          <div class="row ">
+            <div class="col-lg-4 my-3">
+              <div class="flex flex-col justify-center items-center border-r-0 lg:border-r-2 lg:border-r-slate-50">
+                <p class="text-[36px] text-[#fff] font-bold" id="clientsCounter">73 </p>
+                <p class="text-[#fff] text-[22px] font-medium">Satisfied clients</p>
+              </div>
+            </div>
+            <div class="col-lg-4 my-3">
+              <div class="flex flex-col justify-center items-center border-r-0 lg:border-r-2 lg:border-r-slate-50">
+               <p class="text-[36px] text-[#fff] font-bold"  id="servicesCounter"> 6 </p>
+               <p class="text-[#fff] text-[22px] font-medium">Number of Services</p>
+              </div>
+            </div>
+            <div class="col-lg-4 my-3">
+              <div class="flex flex-col justify-center items-center">
+              <p class="text-[36px] text-[#fff] font-bold" id="experienceCounter"> 5  </p>
+              <p class="text-[#fff] text-[22px] font-medium">+Years Experience</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container-fluid my-2 overflow-hidden">
+        <div class="container py-5">
+          <h2 class="text-center text-[35px] font-bold heading">Our Work FLow </h2>
+          <p class="text-[16px] text-gray-500 text-center">We are not just Another-IT-Company. All the projects we do are well managed, well timed and up to the mark !</p>
+          <div class="row justify-center items-center">
+               <div class="col-lg-8 col-12 ">
+                <img class=" object-center px-2 w-full workflow" src="images/work-flow.jpg" alt="">
+               </div>
+          </div>
+        </div>
+      </div>
+
+
+     
+
+       <div class="container-fluid overflow-hidden">
+           <div class="container py-5">
+                 <h2 class="text-center text-[35px] font-bold heading">Our Partners </h2>
+           
+               <div class="row">
+                      <div class="col-lg-12">
+                        <div class="swiper mySwiper">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide py-5">
+                             
+                                       <img class="w-full h-full" src="https://prixa.net/media/partner_pp/lokaantar.png" alt="">
+
+                            </div>
+                            <div class="swiper-slide py-5">
+                             
+                              <img class="w-full h-full" src="https://prixa.net/media/partner_pp/Aajakoartha_1.png" alt="">
+
+                            </div>
+                            <div class="swiper-slide py-5">
+                             
+                              <img class="w-full h-full" src="https://prixa.net/media/partner_pp/New_Project_4.png" alt="">
+
+                            </div>
+                            <div class="swiper-slide py-5">
+                             
+                              <img class="w-full h-full" src="https://prixa.net/media/partner_pp/New_Project_3.png" alt="">
+
+                            </div>
+                            <div class="swiper-slide py-5">
+                             
+                              <img class="w-full h-full" src="https://prixa.net/media/partner_pp/New_Project_1.png" alt="">
+
+                            </div>
+                            <div class="swiper-slide py-5">
+                             
+                              <img class="w-full h-full" src="https://prixa.net/media/partner_pp/New_Project_2.png" alt="">
+
+                            </div>
+                            <div class="swiper-slide py-5">
+                             
+                              <img class="w-full h-full" src="https://prixa.net/media/partner_pp/nabil.jpg" alt="">
+
+                            </div>
+                            <div class="swiper-slide py-5">
+                             
+                              <img class="w-full h-full" src="https://prixa.net/media/partner_pp/wvin.png" alt="">
+
+                            </div>
+                            <div class="swiper-slide py-5">
+                             
+                              <img class="w-full h-full" src="https://prixa.net/media/partner_pp/Farakdhar.png" alt="">
+
+                            </div>
+                            <div class="swiper-slide py-5">
+                             
+                              <img class="w-full h-full" src="https://prixa.net/media/partner_pp/UiB_2.png" alt="">
+
+                            </div>
+                            <div class="swiper-slide py-5">
+                             
+                              <img class="w-full h-full" src="https://prixa.net/media/partner_pp/thahakhabar.png" alt="">
+
+                            </div>
+                            <div class="swiper-slide py-5">
+                             
+                              <img class="w-full h-full" src="https://prixa.net/media/partner_pp/ratopati.png" alt="">
+
+                            </div>
+                          
+                           
+                          </div>
+                          <!-- <div class="swiper-button-next"></div>
+                          <div class="swiper-button-prev"></div> -->
+                          <div class="swiper-pagination"></div>
+                        </div>
+                       
+                      </div>
+              </div>
+           
+            </div>
+      </div>
+
+ 
+  
+<div class="container-fluid overflow-hidden">
+  <div class="container py-5">
+    <h2 class="text-center text-[35px] font-bold heading">Latest News</h2>
+    <div class="row mt-5">
+
+      <div class="col-lg-3 col-md-12 col-12 mt-3 news">
+            <div class="border-1 border-gray-300 shadow-md p-4 rounded-md left h-full">
+                  <h5 class="text-[24px] font-bold text-[#393939]"><a class="hover:text-[#2937a0]" href="">Prixa Adalytics v2.1.0 Launched</a></h5>
+                  <p class="text-gray-500 text-[16px] mt-2 hover:text-[#2937a0]">प्रिक्सा टेक्नोलोजीज द्वारा जारीप्रेस
+                    विज्ञप्ती विगत पाँच
+                    वर्षदेखी सूचना प्रविधि क्षेत्रमा सक्रिय रहिआएको, यस प्रिक्सा टेक्नोलोजीजले गत २०७६ असोज २७ ब...</p>
+            </div>
+      </div>
+
+      <div class="col-lg-3 col-md-12 col-12 mt-3 news">
+        <div class="border-1 border-gray-300 shadow-md p-4 rounded-md mid h-full">
+              <h5 class="text-[24px] font-bold text-[#393939]"><a class="hover:text-[#2937a0]" href="">संचार माध्यमहरुमा आएको समाचार सम्बन्धि प्रेस विज्ञप्ती </a></h5>
+              <p class="text-gray-500 text-[16px] mt-2 hover:text-[#2937a0]">संचार माध्यमहरुमा आएको समाचार सम्बन्धि प्रेस विज्ञप्ती</p>
+        </div>
+     </div>
+
+     <div class="col-lg-3 col-md-12 col-12 mt-3 news">
+      <div class="border-1 border-gray-300 shadow-md p-4 rounded-md down h-full">
+            <h5 class="text-[24px] font-bold text-[#393939]"><a class="hover:text-[#2937a0]" href="">Prixa Tech Joins DigitalOcean Solutions Partner Program </a></h5>
+            <p class="text-gray-500 text-[16px] mt-2 hover:text-[#2937a0]">The partnership will extend DigitalOcean’s industry-leading simplicity and price-to-performance
+              to Prixa’s customer base. Prixa today an...</p>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-12 col-12 mt-3 news">
+      <div class="border-1 border-gray-300 shadow-md p-4 rounded-md right-hand h-full">
+            <h5 class="text-[24px] font-bold text-[#393939]"><a class="hover:text-[#2937a0]" href="">KU students receive "Prixa Excellence Award- 2018" </a></h5>
+            <p class="text-gray-500 text-[16px] mt-2 hover:text-[#2937a0]">Prixa Technologies on
+              December 24, 2018 has announced and awarded “Prixa Excellence Award 2018” to
+              the students of Kathmandu University...</p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid bg-[#2937a0] overflow-hidden">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-12 flex flex-wrap flex-col justify-center items-center lg:justify-normal lg:items-start ">
+
+        <div>
+          <a  href=""><img  src="https://prixa.net/static/frontend/images/logo/logo-footer.png" alt=""></a>
+
+        </div>
+            
+             <div class="flex flex-col   gap-2 my-3 footer-2">
+                  <div class="flex justify-normal  gap-2 mb-3">
+                    <i class='bx bxs-map text-[#fff] text-[24px]'></i>
+                    <div>
+                        <h5 class="text-[18px] text-[#fff] font-medium uppercase">Address</h5>
+                        <p class="text-gray-300 text-[16px]">Prixa Headquarters, Jawalakhel</p>
+                    </div>
+                  </div>
+
+                  <div class="flex justify-normal  gap-2 mb-3">
+                    <i class='bx bxs-envelope text-[#fff] text-[24px]'></i>
+                    <div>
+                        <h5 class="text-[18px] text-[#fff] font-medium uppercase">Email</h5>
+                        <p class="text-gray-300 text-[16px]">info@prixa.org</p>
+                    </div>
+                  </div>
+
+                  <div class="flex justify-normal  gap-2 mb-3">
+                    <i class='bx bxs-phone text-[#fff] text-[24px]'></i>
+                    <div>
+                        <h5 class="text-[18px] text-[#fff] font-medium uppercase">Phone</h5>
+                        <p class="text-gray-300 text-[16px]">9801970966,&nbsp;01-15555062</p>
+                    </div>
+                  </div>
+
+
+             </div>
+
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-12 gap-5 flex justify-center lg:justify-between ">
+           
+       <div class="footer-1">
+        <h6 class="text-[#fff] text-[24px] font-normal">INFORMATION</h6>
+        <ul class="flex flex-col my-4">
+          <li class="mb-3"><a class="text-[16px] font-medium text-gray-300 hover:text-[#fff] transition-all ease-in duration-75" href="">About Us</a></li>
+          <li class="mb-3"><a class="text-[16px] font-medium text-gray-300 hover:text-[#fff] transition-all ease-in duration-75" href="">Services</a></li>
+          <li class="mb-3"><a class="text-[16px] font-medium text-gray-300 hover:text-[#fff] transition-all ease-in duration-75" href="">FAQ</a></li>
+          <li class="mb-3"><a class="text-[16px] font-medium text-gray-300 hover:text-[#fff] transition-all ease-in duration-75" href="">Contact Us</a></li>
+          
+
+        </ul>
+       </div>
+
+
+       <div class="footer-2">
+        <h6 class="text-[#fff] text-[24px] font-normal">LATEST NEWS</h6>
+        <ul class="flex flex-col my-4">
+          <li class="mb-3">
+            <a class="text-[16px] font-medium text-gray-300 hover:text-[#fff] transition-all ease-in duration-75" href="">Prixa Adalytics v2.1.0 Launched</a>
+            <p class="text-gray-200">Oct. 24, 2019</p>
+          </li>
+          <li class="mb-3">
+            <a class="text-[16px] font-medium text-gray-300 hover:text-[#fff] transition-all ease-in duration-75" href="">संचार माध्यमहरुमा आएको समाचार सम्बन्धि प्रेस विज्ञप्ती</a>
+            <p class="text-gray-200">Oct. 21, 2019</p>
+          </li>
+          <li class="mb-3">
+            <a class="text-[16px] font-medium text-gray-300 hover:text-[#fff] transition-all ease-in duration-75" href="">Prixa Adalytics v2.1.0 Launched</a>
+            <p class="text-gray-200">July 24, 2019</p>
+          </li>
+        
+
+        </ul>
+       </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <hr class="text-white mt-2">
+  <div class="container">
+    <div class="row flex justify-center items-center">
+             <div class="col-lg-6">
+              <p class="text-[#fff] text-center mb-0 py-3 copyright">
+                <script>document.write(new Date().getFullYear())</script> &#xa9 Amit - Prixa Tech.
+              </p>
+           
+             </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="video">
+          <img src="/images/thumbnail3.png" alt="IMG">
+          <div class="overlay"></div>
+       
+          <a href="https://www.youtube.com/embed/CTW3xDBsMwQ?si=wITP3mvL-147ruqO" class="btn-play popup-youtube"></a>
+          <div class="popup-video">
+              <div class="video-wrapper">
+                  <span class="close-icon">&times;</span>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/CTW3xDBsMwQ?si=wITP3mvL-147ruqO" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+              </div>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+<div class="fixed container-fluid top-0 left-0 w-full md:w-[65%]   h-full bg-[#f0f0f0] sidebar  border-1 border-gray-600 z-[999]  transition ease-in duration-100" style="display: none;" >
+  <div class="flex flex-col justify-center items-center my-4">
+    <img src="https://prixa.net/static/frontend/images/logo/prixa_image.png" alt="">
+
+    <ul class="mt-4 w-full h-full px-20 flex justify-center items-center flex-col">
+              <li class="my-3 border-b-2 border-gray-600 text-center w-full"><a class="px-2 text-[#2937a0] text-[16px] font-bold whitespace-nowrap lg:hidden uppercase" href="./index.html">Home</a></li>
+              <li class="my-3 border-b-2 border-gray-600 text-center w-full"><a class="px-2 text-[#2937a0] text-[16px] font-bold whitespace-nowrap lg:hidden uppercase" href="./Services.html">Our Services</a></li>
+              <li class="my-3 border-b-2 border-gray-600 text-center w-full  ">
+                <a class="px-2 text-[#2937a0] text-[16px] font-bold whitespace-nowrap lg:hidden uppercase" href="./Career.html">Career</a>
+
+
+              </li>
+
+
+              <li class="my-3  text-center dropdown  has__dropdown transition ease-in duration-500 relative w-full">
+                <a class="px-2 text-[#2937a0] text-[16px] menu__link font-bold whitespace-nowrap lg:hidden uppercase" href="javascript:void(0)">
+                  About Us <i class='bx bx-chevron-down'></i>
+                </a>
+
+                <ul class="dropdown-content absolute">
+                  <li>
+                    <a class="text-[#2937a0] text-[16px] font-bold uppercase" href="./About.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="text-[#2937a0] text-[16px] font-bold uppercase" href="">Contact Now</a>
+                  </li>
+                </ul>
+              </li>
+
+    </ul>
+
+  </div>
+ 
+
+  <i class='bx bx-x absolute top-5 right-5 text-[28px] text-[#444] z-[999]' onclick="sidebarClose()"></i>
+
+</div>
+
+
+ <!-- <div class="container-fluid">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-12 flex flex-col gap-1 lg:gap-10 items-start justify-normal lg:items-center lg:justify-center">
+
+        <div class="h-24 w-24 flex items-center gap-2 justify-evenly flow5">
+          <p class="text-[14px] text-gray-500 text-center">Final Product</p>
+          <img class="object-cover object-center rounded-full" src="https://cdn.slidesharecdn.com/ss_thumbnails/thefinalproduct-110329133700-phpapp01-thumbnail-4.jpg?cb=1301406614" alt="">
+
+        </div>
+
+        <div class="h-24 w-24 flex items-center gap-2 justify-center flow4">
+          <p class="text-[14px] text-gray-500 text-center">Sprint</p>
+          <img class="object-cover object-center rounded-full" src="https://th.bing.com/th/id/R.9a4e0b66f9cffa58dc0ec1b658f0ab40?rik=%2f%2bZUENaLlfxUgw&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2frunning-track-silhouette%2frunning-track-silhouette-6.png&ehk=UH35q2O5ighgHYgHMApHyRPJa8v%2fdjJyhAuGVt2Hy20%3d&risl=&pid=ImgRaw&r=0" alt="">
+
+        </div>
+
+        <div class="h-24 w-24 flex items-center gap-2 justify-center flow3">
+          <p class="text-[14px] text-gray-500 text-center">Product Backlog</p>
+          <img class="object-cover object-center rounded-full" src="https://th.bing.com/th/id/OIP.qsX_MvoNx9OlW4BLY7r3TgHaHX?rs=1&pid=ImgDetMain" alt="">
+
+        </div>
+
+        <div class="h-24 w-24 flex items-center gap-2 justify-center flow2">
+          <p class="text-[14px] text-gray-500 text-center">Scope Finalization And<br> Contract</p>
+          <img class="object-cover object-center rounded-full" src="https://th.bing.com/th/id/R.43fd7709f8166bae364c1d5fb603c07d?rik=rTMbrAZW1f6hPw&pid=ImgRaw&r=0" alt="">
+
+       </div>
+
+
+        <div class="h-24 w-24 flex items-center  justify-center flow1 ml-4">
+               <p class="text-[14px] text-gray-500 text-center">Product Dreamer <br> [Client]</p>
+               <img class="object-cover object-center rounded-full" src="https://i.pinimg.com/originals/df/59/e2/df59e294f67787a134120e79f13b616c.jpg" alt="">
+
+        </div>
+
+       
+     
+
+     
+
+      
+
+
+      </div>
+    </div>
+  </div>
+</div>  -->
+
+     
+
+<!--Particle js-->
+<!-- scripts -->
+<!-- <script src="./js/particle.js"></script> -->
+<!-- <script src="./js/app.js"></script> -->
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+   <!--Jquery cdn-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+ 
+ 
+
+
+
+
+<!--Jarallax cdn-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jarallax/2.2.0/jarallax.min.js" integrity="sha512-SzjBVJel+vn7dcuXHmWy9UN7hK2QFO3LY1OQ57tdMakmFQ2yZpt60WUhH/lu7X65SphrUNcb19Sahe0HdjmRbg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script>
+  $(document).ready(function(){
+      jarallax(document.querySelectorAll('.jarallax'));
+  });
+</script>
+
+ <!-- Jarallax JS -->
+ <!-- <script type="text/javascript">
+  /* init Jarallax */
+  jarallax(document.querySelectorAll(".jarallax"));
+
+  jarallax(document.querySelectorAll(".jarallax-keep-img"), {
+    keepImg: true,
+  });
+</script> -->
+
+
+
+
+
+<!--scroll reveal-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+   <!--Parallax-->
+   <!-- <script>
+    window.addEventListener('scroll', function() {
+      const parallaxImage = document.querySelector('.parallax');
+      let scrollPosition = window.pageYOffset;
+      parallaxImage.style.top = scrollPosition * 0.7 + 'px'; 
+    });
+  </script> -->
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      speed: 600,
+      parallax: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+    // when window width is >= 320px
+    100:{
+      slidesPerView: 1,
+      spaceBetween: 10
+    },
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 4,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 4,
+      spaceBetween: 20
+    },
+
+    768:{
+      slidesPerView: 6,
+      spaceBetween: 20
+    }
+  },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+
+  <script>
+    var swiper1=new Swiper('.swiper-1',{
+      speed: 600,
+      parallax: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 1,
+          spaceBetween: 50,
+        },
+      }, 
+    })
+  </script>
+  <script>
+    var header=$('.header')
+    $(window).scroll(function(){
+      if($(this).scrollTop() > 0){
+        header.addClass('sticky')
+      }else
+      {
+        header.removeClass('sticky') 
+      }
+    })
+  </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+   
+</body>
+</html>
